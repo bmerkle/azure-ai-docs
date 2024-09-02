@@ -92,6 +92,7 @@ The main function at the end allows you to view the evaluation result locally, a
 
     ```bash
     pip install promptflow-evals
+    pip install promptflow.azure
     ```
 
 1. Now run the evaluation script:
