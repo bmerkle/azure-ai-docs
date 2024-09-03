@@ -30,6 +30,11 @@ In this part two, you learn how to:
 - You must complete [part 1 of the tutorial series](copilot-sdk-build-rag.md) to build the copilot application.
 
 - You must have the necessary permissions to add role assignments in your Azure subscription. Granting permissions by role assignment is only allowed by the **Owner** of the specific Azure resources. You might need to ask your Azure subscription owner (who might be your IT admin) for help with endpoint access later in the tutorial.
+For this tutorial make sure you assign the following additional roles into the resource group for your user:
+    - Cognitive Services Contributor
+    - Storage Blob Data Contributor
+    - Web Plan Contributor
+    - Website Contributor
 
 ## Evaluate the quality of copilot responses
 
